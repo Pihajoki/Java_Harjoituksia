@@ -18,9 +18,14 @@ public class App {
 
         // While Loop
         int ruokaMaassa = 0;
-        while(ruokaMaassa < 5) {
+        while(ruokaMaassa < 1) {
             System.out.println("Voit nostaa ruuan ja syödä");
             ruokaMaassa++;
+        }
+
+
+        for(int waterCooler = 1 ; waterCooler < 1 ; waterCooler++) {
+            System.out.println("Heyo");
         }
 }
 }
